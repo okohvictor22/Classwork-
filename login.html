@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <title>log in screen</title>
+    <style>
+        button{
+            background-color: black;
+            color: aliceblue;
+            width: 20em;
+            height: 4em;
+            border-radius: 10px;
+            margin-bottom: 1.5em;
+            margin-left: 50px;
+        }
+        span{
+            font-size: xx-large;
+            font-style: normal;
+            font-weight: 500;
+        }
+        h1{
+            font-weight: bolder;
+            font-size: 40px;
+            margin-bottom: 7px;
+
+        }
+        footer{
+            position: absolute;bottom: 50px;
+            position: absolute;right: 135px;
+            font-size: 10px;
+        }
+        img{
+            width: 7em;
+            margin-left: 8em; margin-right: auto;
+            margin-bottom: 2em;
+            margin-top: 3em;
+        }
+        .form{
+            height: 2em;
+        } 
+        #email{
+            height: 2em;
+            margin: 10px;
+            padding-left: 2em;
+            background-color:rgb(214, 213, 213) ;
+            color: black;
+            border-radius: 7px;
+            margin-bottom: 1em;
+            font-size: medium;
+        } 
+        #password{
+            height: 2em;
+            margin: 10px;
+            padding-left: 2em;
+            background-color: rgb(214, 213, 213);
+            color: black;
+            border-radius: 7px;
+            font-size: medium;
+        }     
+        #service{
+            margin-bottom: 2em;
+            font-size: 11px;
+            margin-top: 8px;
+        }
+        div{
+            margin-left: 50px;
+        }
+        #lower{
+            margin-left: 50px;
+        }
+        #test{
+            font-size: larger;
+        }
+        #web{
+            font-size: larger;
+        }
+        body{
+            background-color: rgb(247, 244, 247);
+           bottom:background-color rgb(202, 14, 202);
+        }
+    </style>
+</head>
+<body>
+    <img src="remitel-logo.png" alt="">
+    <div>
+            <h1>
+                 Sign up
+            </h1>
+            <p class="form">
+                 Fill the form to register the account
+             </p>
+    </div>
+    <form>
+        <div>
+    <label for="email" id="test">Email</label>
+     <br>
+    <input type="text" name="email" id="email" placeholder="Please enter your email">
+    <br>
+
+    <label for="password" id="web">Password</label>
+    <br>
+    <input type="password" name="password" id="password" placeholder="Please enter password">
+</div>
+</form>
+<div>
+    <p class="character">
+        Must contain at least 8 characters
+    </p>
+
+    <p id="service">
+        By signing up you agree to <a href="#">Terms of Service</a>
+    </p>
+</div>
+    <button>
+            Sign up        
+        </button>
+    <p id="lower">
+        Already have an account? <a href="#">Login</a>
+    </p>
+    <footer>
+        <p>
+        Powered by <span>mySME</span>
+     </p>
+    
+        <p>
+        Retail Management Software
+        </p>
+    </footer>
+    <script src="scripts.js"></script>
+    </body>
+</html>
